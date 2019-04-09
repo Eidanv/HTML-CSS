@@ -13,11 +13,12 @@
 
 
     <form action="http://localhost:8080/login.php" method="post"></form>
-        <pre>Enter your user name</pre>
-        <p><input name="Login" placeholder="Name here"></p>
-        <pre>Enter your password</pre>
-        
-        <p><input name="Password" placeholder="Password here"></p>
+        <p>
+            <label for="Login">Login:</label>
+            <input name="Login" type="text" autofocus id="Login" placeholder="Name here"></p>
+        <p>
+            <label for="password">Password:</label>
+            <input type="password"  id="Password" name="Password" placeholder="Password here"></p>
         <p>
         <input type="submit" value="SignIn">
         <button type="reset">Cancel</button>
