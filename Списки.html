@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Списки</title>
+    </head>
+
+    <div>
+        <h2>Нумерованный список</h2>
+        <ol>
+            <li>США</li>
+            <li>Англия</li>
+            <li>Канада</li>
+            <li>Новая Зеландия</li>
+            <li>Австралия</li>
+        </ol>
+        <h2>Не нумерованный список</h2>
+        <ul>
+            <li>США</li>
+            <li>Англия</li>
+            <li>Канада</li>
+            <li>Новая Зеландия</li>
+            <li>Австралия</li>
+        </ul>
+        <h2>Пользовательские настройки списков</h2>
+        <h3>list-style-type:decimal</h3>
+        <ol style="list-style-type:decimal;" start="3">
+                <li>США</li>
+                <li>Англия</li>
+                <li>Канада</li>
+                <li>Новая Зеландия</li>
+                <li>Австралия</li>
+        </ol>
+        <h3>list-style-type:Roman</h3>
+        <ul style="list-style-type:lower-roman">
+                <li>США</li>
+                <li>Англия</li>
+                <li>Канада</li>
+                <li>Новая Зеландия</li>
+                <li>Австралия</li>
+        </ul>
+        <h3>List-style-type:lower-alpha</h3>
+        <ul style="list-style-type:lower-alpha">
+                <li>США</li>
+                <li>Англия</li>
+                <li>Канада</li>
+                <li>Новая Зеландия</li>
+                <li>Австралия</li>
+        </ul>
+        <ul style="list-style-type:circle">
+                <li>США</li>
+                <li>Англия</li>
+                <li>Канада</li>
+                <li>Новая Зеландия</li>
+                <li>Австралия</li>
+        </ul>
+        <ul style="list-style-type:square">
+                <li>США</li>
+                <li>Англия</li>
+                <li>Канада</li>
+                <li>Новая Зеландия</li>
+                <li>Австралия</li>
+
+        </ul>
+        <h2>Список телефонов с картинкой</h2>
+        <ul style="list-style-image:url(Phone.PNG)">
+                <li>Iphone</li>
+                <li>Samsung</li>
+                <li>Huawei</li>
+                <li>Nokia</li>
+        </ul>
+
+        <h3>Горизонтальный список</h3>
+        <style>
+        ul#menu li{
+            display: inline;
+        }
+        </style>
+        <ul id="menu">
+                <li>Iphone</li>
+                <li>Samsung</li>
+                <li>Huawei</li>
+                <li>Nokia</li>
+        </ul>
+        <body>
+            <details>
+                <summary>Раскрывающийся список</summary>
+                <li>
+                        <li>Iphone</li>
+                        <li>Samsung</li>
+                        <li>Huawei</li>
+                        <li>Nokia</li>
+                </li>
+            </details>
+        </body>
+    </div>
+</html>
