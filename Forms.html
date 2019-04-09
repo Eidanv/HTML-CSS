@@ -6,7 +6,7 @@
     <!-- Searching -->
     <form>
         <p>
-            <input type="text" name="search">
+            <input type="text" name="search" placeholder="Enter what you want to search" size="22">
             <input type="image" src="img/search.png" name="submit">
         </p>
     </form>
@@ -14,16 +14,25 @@
 
     <form action="http://localhost:8080/login.php" method="post"></form>
         <pre>Enter your user name</pre>
-        <p><input name="Login"></p>
+        <p><input name="Login" placeholder="Name here"></p>
         <pre>Enter your password</pre>
         
-        <p><input name="Password"></p>
+        <p><input name="Password" placeholder="Password here"></p>
         <p>
         <input type="submit" value="SignIn">
         <button type="reset">Cancel</button>
         </p>
+
+        <form>
+                <p><input list="CountryList" type="text" name="model" placeholder="Enter you Country" /></p>
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+        </form>
+            <datalist id="CountryList">
+                <option value="USA" label="New York">
+                <option value="Canada">Toronto</option>
+                <option value="New Zealand">
+            </datalist>
 </body>
-
-
-
 </html>
